@@ -1,0 +1,109 @@
+.login_page {
+    background-image: url('../public/login_bg.avif'); 
+
+    background-size: cover;
+    height: 40rem;
+    margin: 0%;
+    /* background-position: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    max-width: 400px;
+
+    align-items: center;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.367); /* Semi-transparent white background */
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  form button {
+    width: 50%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .google-btn {
+    width: 50%;
+    margin-bottom: 25px;
+    padding: 12px;
+    background-color: #db4437;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .google-btn:hover {
+    background-color: #cc3127;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* .remember-me {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .remember-me input[type='checkbox'] {
+    margin-right: 5px;
+  } */
+  
+
+  
+
+  

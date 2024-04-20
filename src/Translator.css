@@ -1,0 +1,79 @@
+/* TranslatorPage.css */
+
+.translator-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-search-card,
+  .job-post-card,
+  .job-list-grid {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-search-card h2,
+  .job-post-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .job-search-card input[type='text'],
+  .job-post-card input[type='text'],
+  .job-post-card textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .job-post-card textarea {
+    resize: vertical;
+  }
+  
+  .job-search-card button,
+  .job-post-card button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .job-search-card button:hover,
+  .job-post-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-listing-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-listing-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .job-listing-card p {
+    margin: 0;
+  }
+  

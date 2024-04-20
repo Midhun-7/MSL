@@ -1,0 +1,63 @@
+/* DictionaryPage.css */
+
+.dictionary-container {
+  max-width: 100%;
+  
+  height: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('../public/dictionary_bg.jpg'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.dropdown-card,
+.media-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-card {
+  padding: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-container label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#letterDropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.media-card {
+  padding: 20px;
+}
+
+.media-card img,
+.media-card video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
